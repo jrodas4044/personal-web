@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         <div className="flex flex-wrap space-x-4 md:space-x-8">
           <div>
-            <a className="block w-[150px] px-4 py-2 rounded-2xl bg-gradient-to-r from-emerald-500 to-blue-800 text-white text-center font-bold hover:bg-indigo-500">Blog</a>
+            <a href='https://blog.jonhathanrodas.com/' className="block w-[150px] px-4 py-2 rounded-2xl bg-gradient-to-r from-emerald-500 to-blue-800 text-white text-center font-bold hover:bg-indigo-500">Blog</a>
           </div>
           <div>
             <a className="block w-[150px] px-4 py-2 rounded-2xl bg-gradient-to-r from-emerald-500 to-blue-800 text-white text-center font-bold hover:bg-indigo-500">CV</a>
