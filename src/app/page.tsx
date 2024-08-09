@@ -1,7 +1,50 @@
+import Head from 'next/head';
+import Script from 'next/script'
 import Image from "next/image";
 import Partners from "@/components/Partners";
 import Stack from "@/components/Stack";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Jonhathan Rolando Rodas López",
+  description: "Software Developer - Personal Blog",
+  applicationName: "Jonhathan Rolando Blog",
+  authors: [{
+    name: "Jonhathan Rolando Rodas López",
+    url: "https://jonhathan.com",
+  }],
+keywords: [
+  "Jonhathan Rodas",
+  "Desarrollador Full Stack",
+  "Desarrollador de Software",
+  "PHP",
+  "JavaScript",
+  "TypeScript",
+  "Aplicaciones Serverless",
+  "AWS",
+  "Criminalística Digital",
+  "Seguridad Cibernética",
+  "Ciencias Policiales",
+  "Vue.js",
+  "Tailwind CSS",
+  "Next.js",
+  "Node.js",
+  "AWS Lambda",
+  "API Gateway",
+  "DynamoDB",
+  "OpenSearch",
+  "AWS Amplify",
+  "Laravel",
+  "Symfony",
+  "WordPress",
+  "MySQL",
+  "PostgreSQL",
+  "Azure",
+  "Digital Ocean",
+  "Policiólogo Corporativo",
+  "Investigación Forense"
+],
+};
 
 export default function Home() {
   const bannerStyle = {
@@ -12,6 +55,19 @@ export default function Home() {
 
   return (
     <main>
+      <Head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Jonhathan Rolando Rodas López",
+          "image": "https://www.jonhathanrodas.com/profile.jpg",
+          "jobTitle": "Desarrollador Full Stack",
+          "url": "https://www.jonhathanrodas.com"
+        }
+      `}} />
+    </Head>
+
       <div
         style={bannerStyle}
         className="w-screen h-screen flex flex-col items-center justify-center"
