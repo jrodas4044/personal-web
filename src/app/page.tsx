@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Script from 'next/script'
+import type { Metadata } from 'next'
 import Image from "next/image";
 import Partners from "@/components/Partners";
 import Stack from "@/components/Stack";
