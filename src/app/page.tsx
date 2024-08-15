@@ -118,7 +118,7 @@ export default function Home() {
         <div className="flex flex-wrap space-x-4 space-y-12 mx-auto py-12 container">
           <div className="px-4 py-2 w-full md:w-1/2">
             <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 mb-6 font-bold text-2xl text-transparent">
-              Desarrollador Full Stack
+              Software Full Stack
             </h3>
             <span className="text-gray-400">
               <p>
