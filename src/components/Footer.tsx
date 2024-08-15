@@ -2,11 +2,11 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-black py-2">
-        <div className="container mx-auto text-center">
+        <div className="mx-auto text-center container">
           Jonhathan Rolando Rodas Lopez
         </div>
-        <div className="text-center text-xs text-gray-500 container mx-auto">
-          Este sitio fue desarollado con el stack: Next.js, Strapi y  Tailwind CSS.
+        <div className="mx-auto text-center text-gray-500 text-xs container">
+          This site was developed using the stack: Next.js and Tailwind CSS.
         </div>
       </footer>
     </>

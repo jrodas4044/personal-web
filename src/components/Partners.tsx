@@ -1,14 +1,19 @@
 export default function Partners() {
+  const bannerStyle = {
+    backgroundImage: "url(/bg1.jpg)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+
   return (
-   <>
-      <div className="px-4 py-8 bg-gray-900">
-        <div className="flex flex-col items-center justify-centers">
-          <h3 className="text-2xl text-gray-400">Partners</h3>
-          <span className="text-4xl font-bold  bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-blue-800">
-            He trabajado con
-          </span>
+    <>
+      <div style={bannerStyle} className="bg-gray-900 px-4 py-8">
+        <div className="flex flex-col justify-centers items-center">
+          <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 font-bold text-4xl text-transparent">
+            Partners
+          </h3>
         </div>
-        <div className="flex flex-wrap items-center justify-center py-8">
+        <div className="flex flex-wrap justify-center items-center space-y-4 py-8">
           <div className="px-4 py-2">
             <img src="/partner1.png" className="w-48" alt="Partner 1" />
           </div>
@@ -23,6 +28,6 @@ export default function Partners() {
           </div>
         </div>
       </div>
-   </>
-  )
+    </>
+  );
 }
