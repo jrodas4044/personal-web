@@ -81,7 +81,7 @@ export default function Stack() {
             </div>
 
             <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 mt-12 font-bold text-2xl text-transparent">
-              Key AWS Services I've Used
+              Key AWS Services I&apos;ve Used
             </h3>
 
             <div className="gap-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 p-8">
@@ -104,9 +104,7 @@ export default function Stack() {
               <div className="flex flex-col justify-center items-center bg-gray-900 shadow p-4 rounded-2xl">
                 <img
                   src="https://icon.icepanel.io/AWS/svg/Analytics/OpenSearch-Service.svg"
-                  class
                   className="w-12 h-12"
-                  Name="w-6 h-6"
                 />
                 <span className="mt-2">OpenSearch</span>
               </div>
@@ -130,7 +128,7 @@ export default function Stack() {
           </div>
 
           <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 mt-12 font-bold text-2xl text-transparent">
-            Technologies I've Had the Opportunity to Work With
+            Technologies I&apos;ve Had the Opportunity to Work With
           </h3>
 
           <div className="gap-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 p-8">
