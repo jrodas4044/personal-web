@@ -6,7 +6,7 @@ export default function Stack() {
   };
   return (
     <>
-      <div className="flex flex-col justify-center items-start bg-gray-900 w-screen h-full">
+      <div className="flex flex-col justify-center items-start">
         <div className="mx-auto p-8 container">
           <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 font-bold text-4xl text-transparent">
             Stack

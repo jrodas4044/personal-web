@@ -8,7 +8,7 @@ const Badges = () => {
   };
 
   return (
-    <div style={bannerStyle} className="bg-gray-900 pt-12 pb-8">
+    <div>
       <div className="mx-auto container">
         <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 font-bold text-2xl text-transparent">
           Digital Badges and Certifications
