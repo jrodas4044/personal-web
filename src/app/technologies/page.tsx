@@ -52,7 +52,7 @@ export default function Technologies() {
       <div className="bg-gradient-to-r from-gray-950 via-teal-950 to-sky-950 py-24">
         <div className="mx-auto mb-8 px-4 container">
           <h3 className="bg-clip-text bg-gradient-to-r from-cyan-300 to-green-400 my-4 mb-2 font-bold text-4xl text-transparent">
-            Tech Stack and Tools I've Utilized
+            Tech Stack and Tools I&apos;ve Utilized
           </h3>
           <p>
             With over a decade of experience, primarily in backend development
