@@ -71,7 +71,7 @@ export default function Header() {
 
           <div>
             <ul className="flex space-x-6">
-              {socialUrls.map(({ href, label, icon }, index) => (
+              {socialUrls.map(({ href, label }, index) => (
                 <li key={index}>
                   <a
                     href={href}

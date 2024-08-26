@@ -1,6 +1,17 @@
 import React from "react";
 
-const BadgeCard = ({ src, alt, label }) => (
+type BadgeCardProps = {
+  src: string | null;
+  alt: string;
+  label: string;
+};
+
+type SectionProps = {
+  title: string;
+  items: BadgeCardProps[];
+};
+
+const BadgeCard = ({ src, alt, label }: BadgeCardProps) => (
   <div className="flex justify-center items-center space-x-4 bg-gradient-to-b from-sky-900 via-gray-900 to-black shadow px-4 py-2 rounded-lg">
     {src !== null ? (
       <div>
@@ -17,7 +28,7 @@ const BadgeCard = ({ src, alt, label }) => (
   </div>
 );
 
-const Section = ({ title, items }) => (
+const Section = ({ title, items }: SectionProps) => (
   <div>
     <h3 className="bg-clip-text bg-gradient-to-r from-cyan-300 to-green-400 mb-4 font-bold text-lg text-transparent">
       {title}
