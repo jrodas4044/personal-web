@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <div className="top-0 fixed flex justify-center p-8 w-screen">
-        <div className="left-8 absolute">
+        <div className="">
           <Toogle />
         </div>
 

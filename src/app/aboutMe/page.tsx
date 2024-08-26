@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <>
       <div
-        className="bg-gradient-to-r from-gray-900 to-emerald-500/20 py-24 w-screen h-screen"
+        className="bg-gradient-to-r from-gray-900 to-emerald-500/20 py-24"
         id="aboutMe"
       >
         <div className="flex flex-wrap space-x-4 space-y-12 mx-auto container">
