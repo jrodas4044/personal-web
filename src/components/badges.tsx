@@ -1,6 +1,14 @@
 import Image from "next/image";
 
-const BadgeCard = ({ href, src, alt, title, description }) => (
+type BadgeCardProps = {
+  href: string;
+  src: string;
+  alt: string;
+  title: string;
+  description: string;
+};
+
+const BadgeCard = ({ href, src, alt, title, description }: BadgeCardProps) => (
   <a
     href={href}
     target="_blank"
