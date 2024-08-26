@@ -8,7 +8,7 @@ export default function Header() {
           <Toogle />
         </div>
 
-        <nav>
+        <nav className="hidden md:flex">
           <ul className="flex space-x-6">
             <li>
               <Link href="/">Home</Link>
