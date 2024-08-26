@@ -26,8 +26,20 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Scroll.module.css */
+
+.scroll-container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 16px; /* Ajusta el padding según sea necesario */
+  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total del contenedor */
+}
+
+.scroll-content {
+  display: flex;
+  padding-right: 16px; /* Asegura que el último elemento no quede pegado al borde */
 }

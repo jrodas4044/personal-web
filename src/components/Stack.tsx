@@ -30,10 +30,10 @@ const BadgeCard = ({ src, alt, label }: BadgeCardProps) => (
 
 const Section = ({ title, items }: SectionProps) => (
   <div>
-    <h3 className="bg-clip-text bg-gradient-to-r from-cyan-300 to-green-400 mb-4 font-bold text-lg text-transparent">
+    <h3 className="bg-clip-text bg-gradient-to-r from-cyan-300 to-green-400 mb-4 font-bold text-ellipsis text-lg text-transparent whitespace-nowrap overflow-hidden">
       {title}
     </h3>
-    <div className="gap-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 p-4">
+    <div className="flex flex-wrap gap-4 p-4">
       {items.map((item, index) => (
         <BadgeCard key={index} {...item} />
       ))}
@@ -227,7 +227,7 @@ const Stack = () => {
     {
       src: null,
       alt: "Hexagonal Architecture",
-      label: "Hexagonal Arch...",
+      label: "Hexagonal Architecture",
     },
     // Microservices
     {

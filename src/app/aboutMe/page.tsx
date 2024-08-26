@@ -85,7 +85,7 @@ export default function AboutMe() {
             />
           </div>
 
-          <div className="flex justify-center items-center w-full md:w-1/2">
+          <div className="md:flex justify-center items-center hidden w-full md:w-1/2">
             <Image
               src="/cyber.png"
               alt="Cyberseguridad"
@@ -99,17 +99,12 @@ export default function AboutMe() {
               Digital Forensics
             </h3>
             <span className="text-white">
-              I represent a unique blend of expertise in software development
-              and forensic science. As a developer, I craft cutting-edge
-              technological solutions, while as a forensic investigator, I
-              provide a keen, critical perspective on security and business risk
-              prevention.
               <p className="mt-4">
-                My studies in Police Sciences at the Universidad de Occidente,
-                Antonio Beristain extension, complement my technical experience,
-                enabling me to design systems that are not only efficient and
-                scalable but also take into account comprehensive security in
-                both cyberspace and the physical world.
+                My studies in Police Sciences at the Universidad de Occidente de
+                Guatemala, complement my technical experience, enabling me to
+                design systems that are not only efficient and scalable but also
+                take into account comprehensive security in both cyberspace and
+                the physical world.
               </p>
               <p className="mt-4">
                 This unique combination enables me to craft solutions
