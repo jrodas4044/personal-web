@@ -1,4 +1,49 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Me - Jonhathan Rolando Rodas López",
+  description:
+    "Since 2014, I have forged my path as a software developer, covering all aspects of the software lifecycle: from programming and testing to architectural design and project management. My career has focused on web technologies such as PHP, JavaScript, and TypeScript, evolving in recent years towards serverless cloud-native applications with AWS.",
+  applicationName: "Jonhathan Rolando Personal Page",
+  authors: [
+    {
+      name: "Jonhathan Rolando Rodas López",
+      url: "https://jonhathan.com",
+    },
+  ],
+  keywords: [
+    "Jonhathan Rodas",
+    "Desarrollador Full Stack",
+    "Desarrollador de Software",
+    "PHP",
+    "JavaScript",
+    "TypeScript",
+    "Aplicaciones Serverless",
+    "AWS",
+    "Criminalística Digital",
+    "Seguridad Cibernética",
+    "Ciencias Policiales",
+    "Vue.js",
+    "Tailwind CSS",
+    "Next.js",
+    "Node.js",
+    "AWS Lambda",
+    "API Gateway",
+    "DynamoDB",
+    "OpenSearch",
+    "AWS Amplify",
+    "Laravel",
+    "Symfony",
+    "WordPress",
+    "MySQL",
+    "PostgreSQL",
+    "Azure",
+    "Digital Ocean",
+    "Policiólogo Corporativo",
+    "Investigación Forense",
+  ],
+};
 
 export default function AboutMe() {
   return (
@@ -9,8 +54,8 @@ export default function AboutMe() {
       >
         <div className="flex flex-wrap space-x-4 space-y-12 mx-auto container">
           <div className="px-4 py-2 w-full md:w-1/2">
-            <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 mb-6 font-bold text-2xl text-transparent">
-              Software Full Stack
+            <h3 className="bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-800 mb-6 font-bold text-2xl text-transparent">
+              Full Stack Developer
             </h3>
             <span className="text-white">
               <p>
@@ -50,7 +95,7 @@ export default function AboutMe() {
           </div>
 
           <div className="flex-1 py-2 rounded-md text-white">
-            <h3 className="bg-clip-text bg-gradient-to-r from-emerald-500 to-blue-800 mb-4 font-bold text-2xl text-transparent">
+            <h3 className="bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-800 mb-4 font-bold text-2xl text-transparent">
               Digital Forensics
             </h3>
             <span className="text-white">

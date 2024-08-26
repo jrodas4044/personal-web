@@ -1,17 +1,23 @@
-"use client";
+import Header from "@/components/header";
+import Footer from "@/components/Footer";
+import Particles from "@/components/Particles";
 
-import { motion } from "framer-motion";
-
-export default function Transition({
+export default function Template({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <motion.div
-      initial={{ y: 20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ ease: "easeInOut", duration: 0.75 }}
-    >
-      {children}
-    </motion.div>
+    <>
+      <>
+        <Header />
+
+        <div className="-z-50">
+          <Particles />
+        </div>
+
+        <div className="relative">{children}</div>
+
+        <Footer />
+      </>
+    </>
   );
 }

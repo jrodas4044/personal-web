@@ -2,14 +2,9 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import Link from "next/link";
+import links from "@/components/menu/Items.json";
 
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/aboutMe", label: "About" },
-  { href: "/technologies", label: "Technologies" },
-  { href: "https://blog.jonhathanrodas.com", label: "Blog" },
-];
+import Link from "next/link";
 
 const Toggle = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -78,7 +73,6 @@ const Toggle = () => {
           animate={isOpen ? "open" : "closed"}
           variants={sidebarVariants}
         >
-          {" "}
           <div className="flex justify-between items-center space-x-4 px-6 pb-4 border-b-2 border-b-gray-400">
             <div className="space-y-2">
               <h3 className="font-bold">Jonhathan Rodas López</h3>

@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
@@ -10,8 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-r from-gray-900 to-emerald-500/20">
-        <Header />
+      <body className="bg-gradient-to-r from-gray-950 via-teal-950 to-sky-950">
         <main>{children}</main>
       </body>
     </html>

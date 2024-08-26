@@ -1,0 +1,6 @@
+[
+  { "href": "/", "label": "Home" },
+  { "href": "/aboutMe", "label": "About" },
+  { "href": "/technologies", "label": "Technologies" },
+  { "href": "https://blog.jonhathanrodas.com", "label": "Blog" }
+]
