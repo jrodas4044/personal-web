@@ -280,9 +280,9 @@ const Stack = () => {
   ];
 
   return (
-    <div className="space-y-6 mx-auto mt-4 px-4 container">
+    <div className="space-y-6 mx-auto mt-8 px-4 container">
       <header>
-        <h2 className="bg-clip-text bg-gradient-to-r from-cyan-300 to-green-400 font-bold text-3xl text-transparent">
+        <h2 className="bg-clip-text bg-gradient-to-r from-cyan-300 to-green-400 font-bold text-2xl text-transparent">
           Stack
         </h2>
       </header>

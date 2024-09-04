@@ -32,14 +32,34 @@ body {
 
 /* Scroll.module.css */
 
-.scroll-container {
-  display: flex;
-  overflow-x: scroll;
-  padding: 16px; /* Ajusta el padding según sea necesario */
-  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total del contenedor */
+.fade-edge-left {
+  background: linear-gradient(to right, rgba(30, 41, 59, 1) 0%, rgba(30, 41, 59, 0.8) 50%, rgba(30, 41, 59, 0) 100%);
+  pointer-events: none;
 }
 
-.scroll-content {
+.fade-edge-right {
+  background: linear-gradient(to left, rgba(30, 41, 59, 1) 0%, rgba(30, 41, 59, 0.8) 50%, rgba(30, 41, 59, 0) 100%);
+  pointer-events: none;
+}
+
+.scroll-container {
+  overflow: hidden;
+}
+
+.infinite-scroll-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent);
+}
+
+.infinite-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.infinite-scroll-content {
   display: flex;
-  padding-right: 16px; /* Asegura que el último elemento no quede pegado al borde */
+  width: fit-content;
 }
